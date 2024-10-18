@@ -1,0 +1,122 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    margin-bottom: 30px;
+    background-image: url(0.jpg);
+    width: 100%;
+    height: 30px;
+    border-top-left-radius: 52px;
+    border-top-right-radius: 52px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #ecf0f2;
+    padding: 10px 20px;
+    background-color: #151614;
+    border-radius:20px;
+}
+
+.navbar li a:hover {
+    background-color: #278993;
+}
+
+.logo {
+    height: 80px;
+    margin-left: 20px;
+    width: auto;
+}
+
+/* جعل النص العربي في اليمين */
+body {
+    direction: rtl;
+    text-align: right;
+}
+.container {
+    display: flex;
+    justify-content: center; /* لتمركز العناصر أفقياً */
+    align-items: center; /* لتمركز العناصر عمودياً */
+    height: 100vh; /* تملأ الشاشة بالكامل */
+    background-color: #f0f4f8;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 أعمدة متساوية العرض */
+    gap: 20px; /* مسافة بين الأعمدة */
+    padding: 20px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffc;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    color: #0056b3;
+}
+
+p {
+    color: #555;
+}
+
+video{
+
+
+    margin: 20px;
+}
+.footer {
+    background-image: url(0.jpg);
+    text-align: center;
+    padding: 10px 0; /* تقليل الحشو لتقليل المساحة الفارغة */
+    position: relative;
+    bottom: 0;
+    width: 97%; /* تقليل العرض ليصبح أكثر ملاءمة */
+    max-width: 1200px; /* تحديد عرض أقصى */
+    border-bottom-left-radius: 200px; /* تقليل نصف قطر الحدود */
+    border-top-right-radius: 200px;   /* تقليل نصف قطر الحدود */
+    color: gold;
+    margin: 0 auto; 
+    font-size: 20px;/* توسيط الحاشية */
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-nav a {
+    background-color: #CCC966; /* لون الخلفية للأزرار */
+    color:  #F4F6F7  ; /* لون النص */
+    padding: 5px 15px; /* تقليل الحشو الداخلي للأزرار */
+    margin: 0 10px;
+   
+    border-radius: 10px; /* حواف مستديرة للأزرار */
+    display: inline-block;    
+    text-decoration: underline non;
+
+
+}
+
+.footer-nav a:hover {
+    background-color: #A19B33
+
+
+    
+    
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px; /* تصغير حجم الخط */
+}
